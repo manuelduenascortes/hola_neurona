@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  hola_neurona:
+    build: .
+    ports:
+      - "8501:8501"
+    container_name: hola_neurona_app
+    restart: unless-stopped
