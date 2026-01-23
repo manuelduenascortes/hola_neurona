@@ -1,15 +1,5 @@
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv
+*.pyc
 .git
 .gitignore
-*.md
-.DS_Store
-.vscode/
-.idea/
-*.log
+README.md

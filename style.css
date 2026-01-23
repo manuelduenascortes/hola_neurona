@@ -1,0 +1,30 @@
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #8B3A8B;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #D946A6 0%, #8B3A8B 100%);
+    color: white;
+    font-weight: 600;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background: linear-gradient(135deg, #D946A6 0%, #8B3A8B 100%);
+    color: white;
+}
+
+.stSlider [data-baseweb="slider"] [role="slider"] {
+    background-color: #D946A6 !important;
+}
+
+.stSlider [data-baseweb="slider"] [data-testid="stTickBar"] div {
+    background-color: #D946A6 !important;
+}
